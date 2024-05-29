@@ -1,1 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: url('pattern-7451714_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav{
+    margin-bottom: 19px;
+}
+.card {
+    
+    background: none;
+    backdrop-filter: blur(40px);
+    color: white;
+    margin-left: 19px;
+    display: inline-block;
+    margin-bottom: 19px;
+    animation-name: blu;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+img{
+    height: 210px;
+    left: 50px;
+    display: inline-block;
 
+}
