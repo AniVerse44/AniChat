@@ -1,1 +1,4 @@
+function a()
+{
 alert("hi");
+}
