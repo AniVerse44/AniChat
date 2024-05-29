@@ -51,12 +51,14 @@ a:hover {
    {
           backdrop-filter: blur(5px);
           color: white;
+          transform: scale(1.00001);
  }
      20%,
      40%,
      50% {
         backdrop-filter: blur(25px);
         color: rgb(231, 206, 206);
+        transform: scale(0.9);
      }
      60%,
      70%,
@@ -65,5 +67,6 @@ a:hover {
      100%{
          backdrop-filter: blur(50px);
          color: rgb(124, 113, 113);
+         transform: scale(1);
      }
 }
