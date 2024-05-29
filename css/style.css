@@ -31,3 +31,11 @@ img{
     display: inline-block;
 
 }
+@keyframe blu {
+   0%{
+          backdrop-filter: blur(0px);
+     }
+  100%{
+         backdrop-filter: blur(50px);
+     }
+}
